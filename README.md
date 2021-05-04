@@ -1,11 +1,13 @@
-# About
+# NATRUE
+
+## About
 ### EN
-Natrue is a simple e-commerce web project that focuses on selling "nature" goods such as vegetables, fruit and others. Natrue is built using React.js for the frontend and Node.js for the backend. For the database, Natrue uses MySQL and uses Sequelize as ORM.
+Natrue is a simple fictional e-commerce web project that focuses on selling "nature" goods such as vegetables, fruit and others. Natrue is built using React.js for the frontend and Node.js for the backend. For the database, Natrue uses MySQL (RDBMS) and uses Sequelize as ORM.
 
 ### ID
-Natrue merupakan proyek web e-commerce sederhana yang berfokus pada menjual barang-barang "alam" seperti sayur, buah dan yang lainnya. Natrue dibuat menggunakan React.js untuk frontend dan Node.js untuk backend. Untuk database, Natrue menggunakan MySQL (RDBMS) dan menggunakan Sequelize sebagai ORM.
+Natrue merupakan proyek web e-commerce fiktif sederhana yang berfokus pada menjual barang-barang "alam" seperti sayur, buah dan yang lainnya. Natrue dibuat menggunakan React.js untuk frontend dan Node.js untuk backend. Untuk database, Natrue menggunakan MySQL (RDBMS) dan menggunakan Sequelize sebagai ORM.
 
-# Project Spesification
+## Project Spesification
 ### Frontend:
 - React.js
 ### Backend:
@@ -13,7 +15,7 @@ Natrue merupakan proyek web e-commerce sederhana yang berfokus pada menjual bara
 - MySQL (Database)
 - Sequelize (ORM)
 
-# Screenshot
+## Screenshot
 ### Landing Page
 ![Landing Page](./screenshot/1.jpg)
 ### Product Feed Page
@@ -25,12 +27,12 @@ Natrue merupakan proyek web e-commerce sederhana yang berfokus pada menjual bara
 ### Transaction Page
 ![Transaction Page](./screenshot/5.jpg)
 
-# Important Notice
+## Important Notice
 ### EN
 NATRUE IS JUST A FICTIONAL E-COMMERCE THAT I CREATED FOR MY PERSONAL PORTFOLIO. ANYTHING THAT IS STATED "FOR SALE" HERE IS NOT ACTUALLY SOLD BY ME. THE PRICES OF GOODS LISTED MAY ALSO DIFFER FROM THE ACTUAL MARKET PRICES.
 
 ### ID
 NATRUE HANYALAH E-COMMERCE FIKTIF YANG SAYA BUAT UNTUK PORTFOLIO PRIBADI SAYA. SEMUA BARANG YANG DINYATAKAN "DIJUAL" DI SINI TIDAK BENAR-BENAR SAYA JUAL. HARGA BARANG YANG TERTERA JUGA MUNGKIN BERBEDA DENGAN HARGA PASAR SEBENARNYA.
 
-# License
+## License
 [SEE LICENSE](https://github.com/luthfirobbaniy/Natrue/blob/main/LICENSE)
