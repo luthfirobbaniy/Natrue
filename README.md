@@ -7,7 +7,7 @@ Natrue is a simple fictional e-commerce web project that focuses on selling "nat
 ### ID
 Natrue merupakan proyek web e-commerce fiktif sederhana yang berfokus pada menjual barang-barang "alam" seperti sayur, buah dan yang lainnya. Natrue dibuat menggunakan React.js untuk frontend dan Node.js untuk backend. Untuk database, Natrue menggunakan MySQL (RDBMS) dan menggunakan Sequelize sebagai ORM.
 
-## Project Spesification
+## Project Specification
 ### Frontend:
 - React.js
 ### Backend:
