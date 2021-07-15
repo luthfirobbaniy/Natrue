@@ -43,6 +43,11 @@ Natrue merupakan proyek web e-commerce fiktif sederhana yang berfokus pada menju
       
 - Open `index.js` file, look at `line 3`, change `"username"` and `"password"` to your MySQL username and password
 
+      const dbCon = new Sequelize("natrue_db", "yourUsername", "yourPassword", {
+	      host: "127.0.0.1",
+	      dialect: "mysql",
+      });
+
 #### Run the API
 
 - Move (back) from `dbCon` folder, to `api` folder
