@@ -1,4 +1,4 @@
-# NATRUE
+# Natrue
 
 ## About
 ### EN
@@ -14,6 +14,57 @@ Natrue merupakan proyek web e-commerce fiktif sederhana yang berfokus pada menju
 - Node.js
 - MySQL (Database)
 - Sequelize (ORM)
+
+## Installation
+### Database (Backend)
+- Dari root, masuk ke folder `database`
+
+      cd database
+    
+- Import `natrue_db.sql` database (MySQL)
+
+### API (Backend)
+#### Install API
+
+- Dari root, masuk ke folder `api`
+
+      cd api
+      
+- Install API
+
+      npm i
+    
+#### Setting database connection
+
+- Masuk ke folder `dbCon`
+
+      cd dbCon
+      
+- Buka file `index.js`, lihat `line 3`, ubah `"username"` dan `"password"` menjadi username dan password MySQL anda
+
+#### Run the API
+
+- Keluar dari folder `dbCon`, kemudian jalankan API
+
+      cd ..
+      
+- Jalankan API
+
+      node .
+
+### Client (Frontend)
+
+- Dari root, masuk ke folder `client`
+
+      cd client
+      
+- Install Client
+
+      npm i
+
+- Start
+
+      npm start
 
 ## Screenshot
 ### Landing Page
