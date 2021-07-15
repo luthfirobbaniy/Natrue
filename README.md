@@ -12,59 +12,65 @@ Natrue merupakan proyek web e-commerce fiktif sederhana yang berfokus pada menju
 - React.js
 ### Backend:
 - Node.js
+- Express.js
 - MySQL (Database)
 - Sequelize (ORM)
 
-## Installation
+## Installation and Configuration
 ### Database (Backend)
-- Dari root, masuk ke folder `database`
+- From root, go to `database` folder
 
       cd database
     
 - Import `natrue_db.sql` database (MySQL)
+- Please import this database with the same name (`natrue_db`)
 
 ### API (Backend)
 #### Install API
-
-- Dari root, masuk ke folder `api`
+- From root, go to `api` folder
 
       cd api
       
-- Install API
+- Install the API
 
       npm i
     
 #### Setting database connection
 
-- Masuk ke folder `dbCon`
+- Go to `dbCon` folder
 
       cd dbCon
       
-- Buka file `index.js`, lihat `line 3`, ubah `"username"` dan `"password"` menjadi username dan password MySQL anda
+- Open `index.js` file, look at `line 3`, change `"username"` and `"password"` to your MySQL username and password
 
 #### Run the API
 
-- Keluar dari folder `dbCon`, kemudian jalankan API
+- Move (back) from `dbCon` folder, to `api` folder
 
       cd ..
       
-- Jalankan API
+- Start the API
 
       node .
 
 ### Client (Frontend)
 
-- Dari root, masuk ke folder `client`
+- From root, go to `client` folder
 
       cd client
       
-- Install Client
+- Install the Client
 
       npm i
 
-- Start
+- And then start
 
       npm start
+      
+### Final Step
+
+- Open `localhost:3000` in your browser
+- Happy "shopping"
 
 ## Screenshot
 ### Landing Page
